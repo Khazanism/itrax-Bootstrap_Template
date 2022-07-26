@@ -1,0 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dosis", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-navbar {
+  background-color: #ff47d9;
+  padding: 15px 25px;
+}
+
+.main-navbar -navbar-brand img {
+  width: 45px;
+  margin-right: 5px;
+}
+
+.main-navbar .navbar-brand span {
+  font-size: 22px;
+  font-weight: 700;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* END NAVBAR */
