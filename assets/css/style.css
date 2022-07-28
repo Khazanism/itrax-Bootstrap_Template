@@ -13,17 +13,22 @@ h6 {
   padding: 15px 25px;
 }
 
-.main-navbar -navbar-brand img {
+.main-navbar .navbar-brand img {
   width: 45px;
   margin-right: 5px;
 }
 
+/* added in bootstrap utilities */
+/* .main-navbar .navbar-brand{
+  display: flex;
+  align-items: center;
+} */
+
 .main-navbar .navbar-brand span {
   font-size: 22px;
   font-weight: 700;
-  color: aliceblue;
+  color: #fefefe;
   font-family: "Poppins", sans-serif;
 }
-
 
 /* END NAVBAR */
