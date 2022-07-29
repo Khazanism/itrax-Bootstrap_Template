@@ -1,3 +1,5 @@
+/* Generic styles */
+
 h1,
 h2,
 h3,
@@ -8,6 +10,9 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+/* End Generic Styles */
+
+/* Start Navigation bar */
 .main-navbar {
   background-color: #ff47d9;
   padding: 15px 25px;
@@ -31,4 +36,11 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-/* END NAVBAR */
+.main-navbar .main-navbar__links .nav-link{
+  color: #fefefe;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}
+
+/* END Navigation Bar */
