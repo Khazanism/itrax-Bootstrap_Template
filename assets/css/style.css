@@ -43,3 +43,26 @@ h6 {
 }
 
 /* END Navigation Bar */
+
+/* Start Main Slider */
+
+.main-slider .carousel{
+  background-color: #ff47d9;
+}
+
+.main-slider .main-slider__info{
+  color: #fefefe;
+}
+
+.main-slider .main-slider__info h1{
+   font-size: 45px;
+   font-weight: 700;
+   width: 65%;
+   text-transform: uppercase;
+}
+
+.main-slider .main-slider__info p{
+  
+}
+
+/* End Main Slider */
