@@ -32,15 +32,14 @@ h6 {
 .main-navbar .navbar-brand span {
   font-size: 22px;
   font-weight: 700;
-  color: #fefefe;
+  color: black;
   font-family: "Poppins", sans-serif;
 }
 
-.main-navbar .main-navbar__links .nav-link{
-  color: #fefefe;
+.main-navbar .main-navbar__links .nav-link {
+  color: black;
   text-transform: uppercase;
   font-weight: 500;
-  
 }
 
 /* END Navigation Bar */
