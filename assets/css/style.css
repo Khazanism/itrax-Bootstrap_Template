@@ -46,23 +46,39 @@ h6 {
 
 /* Start Main Slider */
 
-.main-slider .carousel{
+.main-slider .carousel {
+  position: relative;
   background-color: #ff47d9;
 }
 
-.main-slider .main-slider__info{
+.main-slider .main-slider__info {
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* transform: translate(-50%); */
   color: #fefefe;
 }
 
-.main-slider .main-slider__info h1{
-   font-size: 45px;
-   font-weight: 700;
-   width: 65%;
-   text-transform: uppercase;
+.main-slider .main-slider__info h1 {
+  font-size: 45px;
+  font-weight: 700;
+  width: 65%;
+  text-transform: uppercase;
 }
 
-.main-slider .main-slider__info p{
-  
+.main-slider .main-slider__info a {
+  color: #fefefe;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  border: 1px solid #fefefe;
+  border-radius: 25px;
+  transition: .3s;
 }
 
+.main-slider .main-slider__info a:hover{
+  background-color: #fefefe;
+  color: #1e1f1f;
+  transition: .3s;
+}
 /* End Main Slider */
