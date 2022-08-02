@@ -73,12 +73,43 @@ h6 {
   padding: 8px 30px;
   border: 1px solid #fefefe;
   border-radius: 25px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.main-slider .main-slider__info a:hover{
+.main-slider .main-slider__info a:hover {
   background-color: #fefefe;
   color: #1e1f1f;
-  transition: .3s;
+  transition: 0.3s;
 }
 /* End Main Slider */
+
+/* start main product section */
+
+.main-products .main-products__header {
+  text-align: center;
+  padding: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-products .main-products__header h2 {
+  font-weight: 900;
+}
+
+.main-products .main-products_header p {
+}
+
+.main-products .card-container__card {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+.main-products .card-container__card .card__sale {
+  display: inline-block;
+  padding: 2px 15px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: rgb(255, 0, 0);
+}
+
+/* start find everything section  */
+
